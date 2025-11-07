@@ -17,6 +17,7 @@ class Shader
 
 		void Activate();
 		void Delete();
+private:
 		// Internal function to check for compilation/linking errors
 		void compileErrors(unsigned int shader, const char* type);
 };
