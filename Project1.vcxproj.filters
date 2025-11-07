@@ -16,6 +16,9 @@
     <Filter Include="Resource Files\Shader">
       <UniqueIdentifier>{0e11562a-7de0-4f6a-9b67-e8c4b6865eb3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Texture">
+      <UniqueIdentifier>{7db05d74-a037-4bff-8e6e-e8e4e45a4b56}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -64,5 +67,10 @@
     <ClInclude Include="Libaries\include\stb\stb_image.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\areey\Downloads\frame%281%29.png">
+      <Filter>Resource Files\Texture</Filter>
+    </Image>
   </ItemGroup>
 </Project>
