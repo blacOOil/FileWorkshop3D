@@ -169,6 +169,7 @@
       <AdditionalUsingDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\DevZONE\FileWorkShop-Project\Try2\Project1\Project1\Libaries\include\stb;E:\DevZONE\FileWorkShop-Project\Try2\Project1\Project1\Libaries;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
       <AdditionalUsingDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\DevZONE\FileWorkShop-Project\Try2\Project1\Project1\Libaries\include\stb;E:\DevZONE\FileWorkShop-Project\Try2\Project1\Project1\Libaries;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
     </ClCompile>
+    <ClCompile Include="Texture.cpp" />
     <ClCompile Include="VAO.cpp" />
     <ClCompile Include="VBO.cpp" />
   </ItemGroup>
@@ -180,11 +181,12 @@
     <ClInclude Include="EBO.h" />
     <ClInclude Include="Libaries\include\stb\stb_image.h" />
     <ClInclude Include="shaderClass.h" />
+    <ClInclude Include="Texture.h" />
     <ClInclude Include="VAO.h" />
     <ClInclude Include="VBO.h" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="C:\Users\areey\Downloads\frame%281%29.png" />
+    <Image Include="C:\Users\areey\Downloads\d.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
